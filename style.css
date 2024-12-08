@@ -1,0 +1,272 @@
+body {
+    background-color: #F7ECDE;
+}
+
+.form-control {
+    width: 75%;
+    height: 30px;
+
+}
+
+.form-label {
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+label {
+    display: block;
+    /* يضمن أن النص يظهر فوق الحقل */
+
+}
+
+label i {
+    margin-right: 10px;
+    /* مسافة بين الأيقونة والنص */
+}
+
+.lap1 {
+    margin-left: 50px;
+}
+
+#SiteName {
+    height: 40px;
+    width: 75%;
+    margin-left: 90px;
+
+}
+
+#SiteName:focus {
+    outline: none;
+    /* إزالة التحديد الافتراضي */
+    border: 2px solid #e4b827;
+    /* تغيير اللون المحيط بالمربع عند الضغط */
+    box-shadow: 0 0 5px #e4b827;
+
+}
+
+#SiteURL:focus {
+    outline: none;
+    /* إزالة التحديد الافتراضي */
+    border: 2px solid #e4b827;
+    /* تغيير اللون المحيط بالمربع عند الضغط */
+    box-shadow: 0 0 5px #e4b827;
+
+}
+
+#SiteURL {
+    width: 75%;
+    height: 40px;
+    margin-left: 90px;
+}
+
+.site {
+
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+
+.bun1 {
+
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bunn {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #D1512D;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #45A65B;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Righteous, cursive;
+}
+
+h2 .sp1 {
+    color: #7FA952;
+}
+
+h2 .sp2 {
+    color: #A1AB4D;
+}
+
+.dots {
+    margin-left: 80px;
+    font-size: 23px;
+    /* حجم النقاط */
+    color: black;
+    /* لون النقاط */
+    letter-spacing: 1px;
+    /* مسافة بين النقاط */
+}
+
+h1 {
+
+    text-align: center;
+    color: rgb(53, 46, 40);
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Pacifico, cursive;
+}
+
+h1 span {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    /* لون النص */
+    position: relative;
+    display: inline-block;
+    /* لجعل العنصر يتناسب مع النص */
+    padding: 10px 0;
+    /* لإعطاء مساحة حول النص */
+    transition: color 0.5s ease-in;
+    /* تغيير اللون والتحويل تدريجيًا */
+}
+
+h1 span::after {
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    /* ارتفاع الخلفية */
+    background-color: #FEC260;
+    /* لون الخلفية */
+    z-index: -1;
+    /* لجعل الخلفية تظهر خلف النص */
+    transform: translateY(-50%);
+    /* لضبط موقع الخلفية وسط الكلمة */
+}
+
+h1 span:hover {
+    background: linear-gradient(to top, #FEC260, transparent);
+    /* لون الخلفية تدريجي من أسفل إلى أعلى */
+}
+
+.marks1 {
+    color: #3FA55B;
+
+}
+
+.marks2 {
+
+    color: #B3AC49;
+
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    color: rgb(53, 46, 40);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+.modal-content h2 {
+    color: rgb(53, 46, 40);
+    font-weight: 400;
+    font-size: 21px;
+    font-family: "Bree Serif", serif;
+}
+
+/* تخصيص قائمة الرسائل */
+#errorList li {
+    padding: 10px;
+    background-color: #FDD7E4;
+    /* خلفية لكل رسالة */
+    border: 1px solid #F5B7B1;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.error {
+    border: 2px solid red;
+    background-color: #fff3f3;
+    /* خلفية فاتحة للتمييز */
+}
+
+.error-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.modal-content {
+    color: black;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.end {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    background-color: white;
+    width: 80%;
+    height: 8%;
+    border: 1px solid black;
+    white-space: pre;
+    color: rgb(33, 37, 41);
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "PT Sans Caption", sans-serif;
+}
