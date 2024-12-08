@@ -17,13 +17,13 @@ body {
 
 label {
     display: block;
-    /* يضمن أن النص يظهر فوق الحقل */
+  
 
 }
 
 label i {
     margin-right: 10px;
-    /* مسافة بين الأيقونة والنص */
+   
 }
 
 .lap1 {
@@ -39,18 +39,18 @@ label i {
 
 #SiteName:focus {
     outline: none;
-    /* إزالة التحديد الافتراضي */
+   
     border: 2px solid #e4b827;
-    /* تغيير اللون المحيط بالمربع عند الضغط */
+   
     box-shadow: 0 0 5px #e4b827;
 
 }
 
 #SiteURL:focus {
     outline: none;
-    /* إزالة التحديد الافتراضي */
+   
     border: 2px solid #e4b827;
-    /* تغيير اللون المحيط بالمربع عند الضغط */
+    
     box-shadow: 0 0 5px #e4b827;
 
 }
@@ -110,11 +110,11 @@ h2 .sp2 {
 .dots {
     margin-left: 80px;
     font-size: 23px;
-    /* حجم النقاط */
+
     color: black;
-    /* لون النقاط */
+   
     letter-spacing: 1px;
-    /* مسافة بين النقاط */
+   
 }
 
 h1 {
@@ -133,14 +133,14 @@ h1 span {
     font-size: 40px;
     font-weight: bold;
     color: black;
-    /* لون النص */
+    
     position: relative;
     display: inline-block;
-    /* لجعل العنصر يتناسب مع النص */
+    
     padding: 10px 0;
-    /* لإعطاء مساحة حول النص */
+    
     transition: color 0.5s ease-in;
-    /* تغيير اللون والتحويل تدريجيًا */
+    
 }
 
 h1 span::after {
@@ -150,18 +150,18 @@ h1 span::after {
     left: 0;
     width: 100%;
     height: 15px;
-    /* ارتفاع الخلفية */
+  
     background-color: #FEC260;
-    /* لون الخلفية */
+    
     z-index: -1;
-    /* لجعل الخلفية تظهر خلف النص */
+    
     transform: translateY(-50%);
-    /* لضبط موقع الخلفية وسط الكلمة */
+
 }
 
 h1 span:hover {
     background: linear-gradient(to top, #FEC260, transparent);
-    /* لون الخلفية تدريجي من أسفل إلى أعلى */
+    
 }
 
 .marks1 {
@@ -175,7 +175,7 @@ h1 span:hover {
 
 }
 
-/* Modal styles */
+
 .modal {
     display: none;
     position: fixed;
@@ -203,11 +203,11 @@ h1 span:hover {
     font-family: "Bree Serif", serif;
 }
 
-/* تخصيص قائمة الرسائل */
+
 #errorList li {
     padding: 10px;
     background-color: #FDD7E4;
-    /* خلفية لكل رسالة */
+   
     border: 1px solid #F5B7B1;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -217,7 +217,7 @@ h1 span:hover {
 .error {
     border: 2px solid red;
     background-color: #fff3f3;
-    /* خلفية فاتحة للتمييز */
+   
 }
 
 .error-icon {
